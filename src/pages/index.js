@@ -37,10 +37,10 @@ const IndexPage = () => (
     <div className="social-buttons-container">
       <h2>Get in touch!</h2>
       <div className="social-buttons">  
-        <a href="https://twitter.com/buriedsignals" rel="noreferrer" className="social-button-twitter">
+        <a href="https://twitter.com/buriedsignals" target="_blank" rel="noreferrer" className="social-button-twitter">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="mailto:tom.vaillant@hey.com" rel="noreferrer" className="social-button-email">
+        <a href="mailto:tom.vaillant@hey.com" rel="noreferrer" target="_blank" className="social-button-email">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>
