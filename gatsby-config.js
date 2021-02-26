@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Tom Vaillant`,
-    description: `My portfolio.`,
-    author: `@buriedsignals`,
+    description: "Producer | Developer | Filmmaker",
+    url: "https://tomvaillant.com",
+    image: "/images/favicon.png",
+    twitter: `@buriedsignals`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
