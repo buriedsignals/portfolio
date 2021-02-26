@@ -1,0 +1,171 @@
+.avatar {
+    width: 150px;
+    height: 150px;
+    background: -webkit-linear-gradient(left top, crimson 0%, #f90 100%);
+    padding: 10px;;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    animation: 5s ease 0s infinite alternate-reverse none running gradient;
+}
+
+.avatar img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 100%;
+}
+
+.layout-centered {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.layout-centered h4 {
+    text-align: left;
+    font-weight: 750;
+    font-size: 22px;
+}
+
+.layout-centered h2 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+.layout-centered h2 a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/* PAGES */
+.consulting-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 75px;
+}
+
+.consulting-logos img {
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.page-content {
+    margin: 70px 0px;
+    text-align: left;
+}
+
+.page-content p {
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.page-content a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.now-list li {
+    margin-bottom: 0px;
+}
+
+.social-buttons-container {
+    margin-top: 50px;
+}
+
+.social-buttons-container h2 {
+    text-align: center;
+}
+
+.social-buttons {
+    display: flex;
+    padding-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-buttons a {
+    margin: 0px 20px;
+}
+
+.social-button-twitter {
+    font-size: 28px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: linear-gradient(
+150deg
+, rgb(0, 172, 238) 50%, rgb(0, 198, 238));
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-button-email {
+    font-size: 28px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left top, crimson 0%, #f90 100%);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px)  { 
+    .layout-centered {
+        width: 85%;
+        margin-top: 65px;
+        margin-bottom: 40px;
+    }
+
+    .layout-centered h2 {
+        font-size: 22px;
+    }
+
+    .page-content {
+        margin: 50px 0px;
+        font-size: 16px;
+    }
+
+    .consulting-logos {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .consulting-logos img {
+        height: 100px;
+        margin-bottom: 35px;
+    }
+
+    .social-buttons {
+        flex-wrap: wrap;
+    }
+
+    .social-buttons a {
+        margin: 10px 0px;
+    }
+}
