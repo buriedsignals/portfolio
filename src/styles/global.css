@@ -66,7 +66,7 @@
 }
 
 .page-content p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.4em;
     text-align: justify;
 }
@@ -148,6 +148,9 @@
 
     .page-content {
         margin: 50px 0px;
+    }
+
+    .page-content p {
         font-size: 16px;
     }
 

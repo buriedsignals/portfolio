@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -21,7 +22,7 @@ const IndexPage = () => (
     <SEO title="Tom Vaillant" description="Producer | Filmmaker | Developer" />
     <img src={avatar} className="avatar" alt="" />
     <h1>Hi, I'm Tom!</h1>
-    <h2>I’m a creative producer, filmmaker and developer. I write long-form visual essays on <a href="https://buriedsignals.com" target="_blank" rel="noreferrer">Buried Signals</a> and recently co-founded <a href="https://wallrunners.org" target="_blank" rel="noreferrer">Wallrunners</a> to open parkour academies in faraway places.</h2>
+    <h2>I’m a creative producer, filmmaker and developer. I write long-form visual essays on <a href="https://buriedsignals.com" target="_blank" rel="noreferrer">Buried Signals</a> and recently co-founded <a href="https://wallrunners.org" target="_blank" rel="noreferrer">Wallrunners</a> to open parkour academies in faraway places. Occasionally I do <Link to="/consulting">consulting work</Link> for companies and organisations.</h2>
 
     <h4>Some things I made</h4>
     <List title="Buried Signals" description="My blog, an outlet for experiments in visual journalism and fiction." url="https://buriedsignals.com" img_url={buried} />
