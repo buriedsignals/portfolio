@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faMastodon } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => (
     <div className={styles.footer}>
@@ -19,8 +19,8 @@ const Footer = () => (
             <a href="https://twitter.com/buriedsignals" className={styles.footerSocialIcon} rel="me" target="_blank">
                 <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="https://mamot.fr/@buriedsignals" className={styles.footerSocialIcon} rel="me" target="_blank">
-            <FontAwesomeIcon icon={faMastodon} />
+            <a href="https://instagram.com/buriedsignals" className={styles.footerSocialIcon} rel="me" target="_blank">
+            <FontAwesomeIcon icon={faInstagram} />
             </a>        
             <a href="https://www.linkedin.com/in/tomvaillant" className={styles.footerSocialIcon} rel="me" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} />
@@ -30,7 +30,7 @@ const Footer = () => (
             </a>
         </div>      
         <div className={styles.footerSlogan}>
-            <span>Filmmaker | Developer | Journalist</span>
+            <span>Filmmaker | Developer | Producer</span>
         </div>      
     </div>
 )

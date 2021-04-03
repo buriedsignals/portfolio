@@ -1,11 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Layout from "../components/layout"
 import List from "../components/List/list"
 import SEO from "../components/seo"
-import avatar from "../images/avatar.jpg"
+import portrait from "../images/portrait.jpg"
 import beirut from "../images/projects/beirut.jpeg"
 import armenia from "../images/projects/armenia.jpg"
 import bonnaroo from "../images/projects/bonnaroo.jpg"
@@ -21,17 +22,17 @@ import immersive from "../images/logos/immersive-garden.jpg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Tom Vaillant" description="Producer | Filmmaker | Developer" />
-    <img src={avatar} className="avatar" alt="" />
+    <img src={portrait} className="avatar" alt="" />
     <h1>Hi, I'm Tom!</h1>
-    <h2>In a nutshell : I’m a creative producer and visual journalist.</h2>
+    <h2>I’m a creative producer and visual journalist. You can read more about my freelance work <Link to="/consulting">here</Link>.</h2>
 
-    <h4>The currents</h4>
-    <List title="Buried Signals" description="My blog, an outlet for experiments in visual journalism and fiction." url="https://buriedsignals.com" img_url={buried} />
-    <List title="Wallrunners" description="A non-profit I co-founded with friends to open parkour academies in conflict areas." url="https://wallrunners.org" img_url={wallrunnersNGO} />
-    <List title="Immersive Garden" description="Part-time consultancy as an EP and UX designer." url="https://www.awwwards.com/immersivegarden/" img_url={immersive} />
+    <h4>Currents</h4>
+    <List title="Immersive Garden" description="Freelance EP and UX designer." url="https://www.awwwards.com/immersivegarden/" img_url={immersive} />
+    <List title="Wallrunners" description="A non-profit I founded with friends to open parkour academies in conflict areas." url="https://wallrunners.org" img_url={wallrunnersNGO} />
+    <List title="Buried Signals" description="A blog for experiments in visual journalism and fiction." url="https://buriedsignals.com" img_url={buried} />
     <br></br>
     <br></br>
-    <h4>Blasts from the past</h4>
+    <h4>Archive selection</h4>
     <List title="Riot Games : L10 Experience" description="Produced a 72h cinemetic WebGL experience with North Kingdom, starring Ryze for Riot's 10 years." url="https://www.riotgames.com/en/work-with-us/offices/dublin/getting-creative-with-eus-publishing-team" img_url={dragon} />
     <List title="IBM : Cybersec Ops - Terminal" description="Produced an airport cyber breach simulation with North Kingdom." url="https://www.ibm.com/security/digital-assets/cybersecurity-ops/terminal/" img_url={terminal} />
     <List title="Seedstars Life" description="Produced content and built a hub for the Seedstars media library : documentaries, short episodes, podcasts and articles." url="https://www.seedstars.com/content-hub/life/" img_url={seedstars} />

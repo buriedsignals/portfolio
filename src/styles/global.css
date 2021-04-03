@@ -29,7 +29,7 @@
 .layout-centered h4 {
     text-align: left;
     font-weight: 750;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .layout-centered h2 {
@@ -42,8 +42,14 @@
 }
 
 .layout-centered h2 a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #FF8C00;
+}
+
+.layout-centered h2 a:hover {
     text-decoration: underline;
-    color: inherit;
+    animation: 2s ease 1s;
 }
 
 /* PAGES */
