@@ -13,6 +13,7 @@ import bonnaroo from "../images/projects/bonnaroo.jpg"
 import buried from "../images/projects/BS-thumbnail.png"
 import bss from "../images/projects/bss.jpg"
 import dragon from "../images/projects/dragon.png"
+import northkingdom from "../images/logos/northkingdom.png"
 import seedstars from "../images/projects/seedstars.png"
 import terminal from "../images/projects/terminal.png"
 import wallrunners from "../images/projects/wallrunners.jpeg"
@@ -27,7 +28,8 @@ const IndexPage = () => (
     <h2>I’m a creative producer and visual journalist. You can read more about my freelance work <Link to="/consulting">here</Link>.</h2>
 
     <h4>Currents</h4>
-    <List title="Immersive Garden" description="Freelance EP and UX designer." url="https://www.awwwards.com/immersivegarden/" img_url={immersive} />
+    <List title="Immersive Garden" description="Freelance Executive Producer" url="https://www.awwwards.com/immersivegarden/" img_url={immersive} />
+    <List title="North Kingdom" description="Freelance Executive Producer" url="https://northkingdom.com" img_url={northkingdom} />
     <List title="Wallrunners" description="A non-profit I founded with friends to open parkour academies in conflict areas." url="https://wallrunners.org" img_url={wallrunnersNGO} />
     <List title="Buried Signals" description="A blog for experiments in visual journalism and fiction." url="https://buriedsignals.com" img_url={buried} />
     <br></br>
