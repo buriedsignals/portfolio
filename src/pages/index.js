@@ -25,7 +25,7 @@ const IndexPage = () => (
     <SEO title="Tom Vaillant" description="Producer | Filmmaker | Developer" />
     <img src={portrait} className="avatar" alt="" />
     <h1>Hi, I'm Tom!</h1>
-    <h2>I’m a creative producer and aspiring visual journalist. You can read more about my freelance work <Link to="/consulting">here</Link>.</h2>
+    <h2>I’m a senior creative producer and aspiring visual journalist. You can read more about my freelance work <Link to="/consulting">here</Link>.</h2>
 
     <h4>Currents</h4>
     <List title="Immersive Garden" description="Freelance Executive Producer" url="https://www.awwwards.com/immersivegarden/" img_url={immersive} />
