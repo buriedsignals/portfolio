@@ -2,7 +2,7 @@
 .footer {
   border-top: 1px solid #ececec;
   background-color: #ececec;
-  min-height: 300px;
+  min-height: 270px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -34,7 +34,6 @@
 .footer-social-icons {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
   margin-top: 10px;
 }
 
@@ -44,17 +43,10 @@
   height: 60px;
   width: 60px;
   font-size: 2.5rem;
-  &:hover {
-    color: #0CAFFF;
-  }
-}
-  
-.footer-slogan {
 }
 
-.footer-slogan span{
-  color: #4F4F4F;
-  font-weight: lighter;
+.footer-social-icon:hover {
+  color: #0CAFFF;
 }
 
 @media only screen and (max-width: 600px)  { 

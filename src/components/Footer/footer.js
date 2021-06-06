@@ -13,13 +13,13 @@ const Footer = () => (
             <iframe src="https://buriedsignals.substack.com/embed" width="300" height="90" frameBorder="0" scrolling="no" style={{marginBottom: "0px"}}></iframe>
         </div>
         <div className={styles.footerSocialIcons}>
-            <a href="mailto:tom.vaillant@hey.com" className={styles.footerSocialIcon} rel="me" target="_blank">
+            <a href="mailto:tom@buriedsignals.com" className={styles.footerSocialIcon} rel="me" target="_blank">
                 <FontAwesomeIcon icon={faEnvelope} />
             </a>
-            <a href="https://twitter.com/buriedsignals" className={styles.footerSocialIcon} rel="me" target="_blank">
+            <a href="https://twitter.com/tomvaillant_" className={styles.footerSocialIcon} rel="me" target="_blank">
                 <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="https://instagram.com/buriedsignals" className={styles.footerSocialIcon} rel="me" target="_blank">
+            <a href="https://instagram.com/tomvaillant_" className={styles.footerSocialIcon} rel="me" target="_blank">
             <FontAwesomeIcon icon={faInstagram} />
             </a>        
             <a href="https://www.linkedin.com/in/tomvaillant" className={styles.footerSocialIcon} rel="me" target="_blank">
@@ -30,7 +30,6 @@ const Footer = () => (
             </a>
         </div>      
         <div className={styles.footerSlogan}>
-            <span>Filmmaker | Developer | Producer</span>
         </div>      
     </div>
 )

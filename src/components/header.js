@@ -1,10 +1,14 @@
 import PropTypes from "prop-types"
 import React from "react"
-import Nav from "./Nav/nav"
+import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <Nav />
+    <nav>
+      <div>
+        <Link to="/words">Words</Link>
+      </div>
+    </nav>
   </header>
 )
 
